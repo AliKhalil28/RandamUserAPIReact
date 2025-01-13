@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import UserCard from "./UserCard";
-import Pagination from "./Pagination";
-import Loading from "./Loading";
-import Navbar from "./Navbar";
+import UserCard from "./components/UserCard";
+import Pagination from "./components/Pagination";
+import Loading from "./components/Loading";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [users, setUsers] = useState([]);
